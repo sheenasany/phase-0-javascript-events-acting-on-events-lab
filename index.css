@@ -4,6 +4,13 @@
   position: absolute;
   width: 40px;
 }
+/* inline style on the dodger <div>: 
+the bottom and left properties define the dodger's 
+starting position relative to its parent element, 
+the game field. 
+Q: Does the inline style mean css or html?
+I see that the position of game is labeled as relative in css
+but then dodger itself is absolute...? */
 
 #game {
   background-color: #111;
